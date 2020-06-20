@@ -40,7 +40,7 @@ body {
 .headland {
     min-width: 100%;
     height: 63rem;
-    background-image:url(/Assets/headerhand.jpg);
+    background-image:url(./Assets/headerhand.jpg);
     background-color:grey;
     background-blend-mode: multiply;
     background-size: cover;
