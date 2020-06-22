@@ -97,7 +97,8 @@ body {
     }
 
     .headertext h1{
-        color:black;
+	    display:none;
+/*         color:black;
         background-color:#E4E4E4;
         font-size:3.5rem;
         width: 100%;
@@ -106,7 +107,7 @@ body {
         display: flex;
         position:relative;
         top:29rem;
-        left:0rem;
+        left:0rem; */
     }
     
 }
@@ -125,18 +126,18 @@ body {
         height: 24rem; 
     }
 
-    .headertext h1{
+/*     .headertext h1{
         top:24rem;
 
-    }
+    } */
 
 }
 
 @media (max-width: 320px) {
 
-    .headertext h1{
+/*     .headertext h1{
         font-size:3rem;
-    }
+    } */
     
 }
 
