@@ -97,8 +97,8 @@ body {
     }
 
     .headertext h1{
-        background-color: #344C6D;
-        color:white;
+        color:black;
+        background-color:#E4E4E4;
         font-size:3.5rem;
         width: 100%;
         padding-top:1rem;
@@ -162,7 +162,6 @@ body {
 .topnav  ul {
     list-style: none;
     display: flex;
-/*     margin-bottom:-1rem; */
     margin-right:5rem;
 }
 
@@ -176,7 +175,6 @@ body {
     font-size:1.7rem;
     color:white;
     margin-left: 1.7rem;
-/*     margin-bottom:-1rem;   */
 }
 
 .topnav ul a:hover {
@@ -186,6 +184,7 @@ body {
 /* Drop Down */
 
 .topnav .phone {
+    color:white;
     font-size: 2.5rem;
     display: none;
     
@@ -212,7 +211,7 @@ body {
 }
 
 .phone ul.sub-menu {
-    background: #23322B;
+    background:white;
     display: none;
     position: absolute;
     text-align: center;
@@ -222,14 +221,14 @@ body {
 }
 
 .phone ul.sub-menu li a {
-    color: white;
+    color: black;
     padding-bottom: 1rem;
     padding-top:1rem;
 }
 
 .phone ul.sub-menu li:hover,
 .phone ul.sub-menu li:focus-within {
-    border-bottom:2px solid #E4E4E4;
+    border-bottom:2px solid black;
 }
 
 /* media queries for nav */
@@ -255,7 +254,7 @@ body {
     
     .topnav .phone{
         display:block;
-        border:1px solid black;
+        border:1px solid white;
         padding:1rem;
     }
     
@@ -277,6 +276,7 @@ body {
 }
 
 .ourstrategy h2 {
+    color:#481380;
     text-align:center;
     margin-bottom: 3rem;
     font-size: 4rem;
@@ -286,6 +286,8 @@ body {
 }
 
 .ourstrategy .container h2 {
+    color:black;
+    background-color:#E4E4E4;
     letter-spacing: normal;
     line-height: 26.9167px;
     text-align: center;
@@ -308,15 +310,15 @@ body {
 /* Below are the specific styles for content within the containers */
 
 .ourstrategy .flex-container {
-	display: flex;
-	flex-wrap: wrap;    
+    display: flex;
+    flex-wrap: wrap;    
     justify-content: center;
 }
 
 .ourstrategy .container {
     box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
-	width: calc((100%/3) - 3%);  
-	margin: 1%;
+    width: calc((100%/3) - 3%);  
+    margin: 1%;
     height: 100%;
 }
 
@@ -337,6 +339,7 @@ body {
 }
 
 .accomplishments h2 {
+    color:#481380;
     text-align:center;
     margin-bottom: 3rem;
     font-size: 4rem;
@@ -345,12 +348,6 @@ body {
     line-height: 34.8167px;
 }
 
-/* .accomplishments .container img {
-    width: 23rem;
-    display:block;
-    margin:auto;
-} */
-
 .accomplishments .container .words {
     box-shadow: rgba(69, 67, 96, 0.3) 0px 5px 20px 0px;
     text-align: center;
@@ -358,6 +355,7 @@ body {
 }
 
 .accomplishments .container .words h2 {
+    color:black;
     padding-top: 1rem;
     padding-bottom:1rem;
     margin-bottom:-2rem;
@@ -367,21 +365,21 @@ body {
     text-align: center;
 }
     
-    .accomplishments .container .words h2:before{
-        color:brown;
-        font-size:4rem;
-        content:"∾";      
-    }
+.accomplishments .container .words h2:before{
+    color:brown;
+    font-size:4rem;
+    content:"∾";      
+}
     
-    .accomplishments .container .words h2:after{
-        color:brown;
-        font-size:4rem;
-        content:"∾";      
-    }
+.accomplishments .container .words h2:after{
+     color:brown;
+     font-size:4rem;
+     content:"∾";      
+}
 
 
 .accomplishments .container p {
-    text-align: center;
+    text-align: left;
     font-size:19.5px;
     line-height: 30px;
 }
@@ -396,7 +394,7 @@ body {
 .accomplishments .container {
     height: 100%;
 	position: relative;
-	width: calc((100%/4) - 2%);  
+	width: calc((100%/1) - 2%);  
 	margin:1%;
 }
 
@@ -409,48 +407,28 @@ body {
     }
     
     .accomplishments .container {
-        width: calc((100%/2) - 2%); 
+        width: calc((100%/1) - 2%); 
         padding: 1.5rem;
     }
-
-    /* .accomplishments .container div img {
-        width: 90%;
-        display:block;
-        margin:auto;
-    } */
+    
+    .accomplishments h2{
+        margin-bottom:1.5rem;
+    }
 
     .accomplishments .container h2 {
         font-size: 25px;
     }
 
-    /* .accomplishments .container img {
-        width: 20rem;
-    } */
-
 }
 
 @media (max-width: 834px) {
-    
-    .ourstrategy {
-        margin-top:-3rem;
-    }
     
     .ourstrategy .container  {
         width: calc((100%/2) - 2%);         
     }
     
-    .accomplishments h2 {
-    margin-bottom:3rem;
-    }
-    
     .accomplishments .container .words {
         height: 100%;
-        padding-top: 0rem;  
-    }
-    
-    .accomplishments .container .words p {
-        font-size:1.9rem;
-        
     }
 
 }
@@ -479,7 +457,7 @@ body {
     
     .ourstrategy .container h2{
         padding:0rem;
-        font-size:2.8rem;
+        font-size:2.5rem;
     }
     
     .ourstrategy .help h2{
@@ -488,7 +466,7 @@ body {
     
     .ourstrategy .container p{
         padding-bottom:2.7rem;
-        font-size:2.5rem;
+        font-size:2rem;
     }
 
     .accomplishments {
@@ -502,27 +480,39 @@ body {
     }
     
     .accomplishments .container {
-        width: calc((100%/1) - 15%); 
+        width: calc((100%/1) - 10%); 
         margin-top:2rem;
         margin-bottom:0rem;
     }
     
+    .accomplishments h2{
+      margin-bottom:0rem;  
+    }
+    
     .accomplishments .container .words h2{
-        font-size:2.8rem;
+        font-size:2.5rem;
+        padding-bottom:0.5rem;
+        background-color:#E4E4E4;
+        margin-bottom:1rem;
+            
+    }
+    
+     .accomplishments .container .words h2::before{
+        content: none;
+    }
+    
+    .accomplishments .container .words h2::after{
+        content: none;
     }
     
     .accomplishments .container .words p {
-        font-size:2.5rem;
+        font-size:2rem;
         margin-bottom:0.5rem;
     }
     
 }
 
 @media (max-width: 414px) {
-    
-    .ourstrategy h2{
-        margin-top:13rem;
-    }
     
     .ourstrategy .flex-container{
         padding-left:1rem;
@@ -531,7 +521,6 @@ body {
     
     .ourstrategy .container h2{
         padding:0rem;
-        font-size:2.8rem;
     }
     
     .ourstrategy .help h2{
@@ -550,23 +539,21 @@ body {
         padding-top:1rem;
         margin-bottom:3rem;
     }
-    
+      
     .accomplishments .container {
         width: calc((100%/1) - 2%); 
+        margin:0rem;
     }
     
     .accomplishments h2{
         width: 70%;
         display: block;
         margin:auto;
+        margin-bottom:1.5rem;
     }
     
     .accomplishments .container .words h2{
         width: 100%;
-        font-size:3rem;
-        margin-top:2rem;
-        margin-bottom:-2rem;
-        padding-top:1rem;   
     }
     
 }
@@ -575,24 +562,25 @@ body {
     
     .ourstrategy h2{
         margin-top:18rem;
+        margin-bottom:4rem;
     }
     
     .ourstrategy .container h2{
         padding:0rem;
-        font-size:2.8rem;
     }
     
     .ourstrategy .help h2{
         margin-top:1.7rem;
     }
     
-
 }
 
 @media (max-width: 320px) {
+    
 
     .accomplishments .words{
         margin:-1.5rem;
+        margin-top:1rem;
     }
     
 }
@@ -613,8 +601,7 @@ footer p {
 }
 
 footer p span {
-    color:black;
+    color:white;
     border-radius: 1rem;
     padding:1rem;
 }
-
