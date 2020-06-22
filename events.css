@@ -97,6 +97,8 @@ body {
     }
 
     .headertext h1{
+	color:black;
+        background-color:#E4E4E4;
         font-size:3rem;
         width: 100%;
         padding:0rem;
@@ -175,6 +177,7 @@ body {
 /* Drop Down */
 
 .topnav .phone {
+    color:white;
     font-size: 2.5rem;
     display: none;
     
@@ -201,7 +204,7 @@ body {
 }
 
 .phone ul.sub-menu {
-    background: #23322B;
+    background:white;
     display: none;
     position: absolute;
     text-align: center;
@@ -211,14 +214,14 @@ body {
 }
 
 .phone ul.sub-menu li a {
-    color: white;
+    color: black;
     padding-bottom: 1rem;
     padding-top:1rem;
 }
 
 .phone ul.sub-menu li:hover,
 .phone ul.sub-menu li:focus-within {
-    border-bottom:2px solid #E4E4E4;
+    border-bottom:2px solid black;
 }
 
 /* media queries for nav */
@@ -244,7 +247,7 @@ body {
     
     .topnav .phone{
         display:block;
-        border:1px solid black;
+        border:1px solid white;
         padding:1rem;
     }
     
