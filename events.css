@@ -358,13 +358,6 @@ footer p span {
  /* Landscape phone to portrait tablet - below 768 */
 @media (max-width: 768px) {
     
-    .headland h1  {
-        padding-top:1rem;
-        padding-bottom:0.5rem;
-        background-color: #344C6D;
-        color:white;
-    }
-    
     .calendar .month {
         margin-bottom:2rem;
     }
