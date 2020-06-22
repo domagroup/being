@@ -228,7 +228,7 @@ body {
 
 .phone ul.sub-menu li:hover,
 .phone ul.sub-menu li:focus-within {
-    border-bottom:2px solid black;
+    border-bottom:2px solid black; 
 }
 
 /* media queries for nav */
