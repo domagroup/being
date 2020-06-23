@@ -57,7 +57,7 @@ body {
     border-bottom:1px solid black;
     border-left:1px solid black;
     border-right:1px solid black;
-    font-size: 4rem;
+    font-size: 3rem;
     display: block;
     margin:auto;
     width:40rem;
@@ -99,7 +99,7 @@ body {
     .headertext h1{
         color:black;
         background-color:#E4E4E4;
-        font-size:3.5rem;
+        font-size:3rem;
         width: 100%;
         padding-top:1rem;
         padding-bottom:1rem;
@@ -134,8 +134,9 @@ body {
 
 @media (max-width: 320px) {
 
-    .headertext h1{
-        font-size:3rem;
+     .headertext h1{
+        top:20rem;
+
     }
     
 }
