@@ -41,8 +41,8 @@ body {
     min-width: 100%;
     height: 63rem;
     background-image:url(./Assets/shine1.jpg);
-    background-color:grey;
-    background-blend-mode: multiply;
+/*     background-color:grey;
+    background-blend-mode: multiply; */
     background-size: cover;
 }
 
