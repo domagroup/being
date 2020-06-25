@@ -54,9 +54,8 @@ body {
     text-align: center;
     color:black;
     background-color:#E4E4E4;
-    border-bottom:1px solid black;
-    border-left:1px solid black;
-    border-right:1px solid black;
+    border-radius: 1rem;
+    padding:0.5rem;
     font-size: 3rem;
     display: block;
     margin:auto;
@@ -97,16 +96,13 @@ body {
     }
 
     .headertext h1{
-        color:black;
-        background-color:#E4E4E4;
         font-size:3rem;
         width: 100%;
-        padding-top:1rem;
-        padding-bottom:1rem;
         display: flex;
         position:relative;
         top:29rem;
         left:0rem;
+        border:1px solid black;
     }
     
 }
@@ -114,7 +110,7 @@ body {
 @media (max-width: 414px) {
 
     .headland{
-        height: 35rem; 
+        height: 37rem; 
     }
 
 }
